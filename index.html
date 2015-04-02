@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Basics</title>
+    <style>
+        .header {
+            background-color: rgb(34, 34, 34);
+            color: white;
+            text-align: center;
+        }
+
+        .box {
+
+            width: 29%;
+            height: 200px;
+            float: left;
+            margin-right: 40px;
+        }
+        
+        .container{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1 class="header">Hearts</h1>
+
+<div class="container">
+    <div class="box">
+        <h2>Calm Hearth</h2>
+        <img id="calmHearth" src="hearth.jpg" width="100" height="100"/>
+    </div>
+
+    <div class="box">
+        <h2>Angry Hearth</h2>
+        <img id="angryHearth" src="hearth.jpg" width="100" height="100"/>
+    </div>
+
+
+    <div class="box">
+        <h2>Scared Hearth</h2>
+        <img id="scaredHearth" src="hearth.jpg" width="100" height="100"/>
+    </div>
+</div>
+<!--load library-->
+<script type="text/javascript" src="TweenMax.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
